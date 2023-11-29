@@ -13,7 +13,7 @@ const HeroBanner = () => {
   const { url } = useSelector((state) => state.home);
 
   const { data, loading } = useFetch("/movie/upcoming");
-  console.log(data);
+  // console.log(data);
 
   // Handle to get a random image for herobanner
   useEffect(() => {
@@ -21,7 +21,7 @@ const HeroBanner = () => {
       url.backdrop +
       data?.results?.[Math.floor(Math.random() * 20)]?.backdrop_path;
     setBackground(bg);
-    console.log(bg);
+    // console.log(bg);
   }, [data]);
 
   // Search input handler using enter key
@@ -31,7 +31,7 @@ const HeroBanner = () => {
     }
   };
 
-  console.log(query);
+  // console.log(query);
   return (
     <div className="heroBanner">
       {!loading && (
@@ -41,22 +41,22 @@ const HeroBanner = () => {
       )}
       <div className="opacity-layer"></div>
       <ContentWrapper>
-          <div className="heroBannerContent">
-            <span className="title">Welcome</span>
-            <span className="subTitle">
-              {" "}
-              Millions of movies, TV shows and people to discover. Explore now.
-            </span>
-            <div className="searchInput">
-              <input
-                type="text"
-                placeholder="Search for a movie or a tv show"
-                onKeyUp={searchQueryHandler}
-                onChange={(e) => setQuery(e.target.value)}
-              />
-              <button>Search</button>
-            </div>
+        <div className="heroBannerContent">
+          <span className="title">Welcome</span>
+          <span className="subTitle">
+            {" "}
+            Millions of movies, TV shows and people to discover. Explore now.
+          </span>
+          <div className="searchInput">
+            <input
+              type="text"
+              placeholder="Search for a movie or a tv show"
+              onKeyUp={searchQueryHandler}
+              onChange={(e) => setQuery(e.target.value)}
+            />
+            <button>Search</button>
           </div>
+        </div>
       </ContentWrapper>
     </div>
   );
