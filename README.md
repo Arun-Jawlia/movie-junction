@@ -25,9 +25,10 @@ React Icons: Enhance visual appeal and functionality with a diverse set of icons
 📚 Learning Journey:
 Embark on a journey of knowledge as the creator of CinemateX shares insights gained during development:
 
-# Note: Built from YouTube for Learning Purpose: Crafted with a learning mindset, this project showcases the practical application of skills acquired through YouTube tutorials.
 1. Writing High-Quality, Reusable Code: Learn the art of crafting code that stands the test of time and promotes reusability.
 2. Custom Hook - useFetch: Explore the process of fetching data efficiently using a custom hook tailored for the project.
 3. Embracing SCSS: Experience the joy of styling with SCSS, elevating the project's aesthetic appeal.
 4. Mastering Component Reusability: Understand the significance of writing components that enhance reusability and maintainability.
 5. Celebrate your love for movies with CinemateX, where technology and entertainment seamlessly converge! 🎉🍿
+
+# Note: Built from YouTube for Learning Purpose: Crafted with a learning mindset, this project showcases the practical application of skills acquired through YouTube tutorials.
