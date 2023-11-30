@@ -1,33 +1,39 @@
-#🎬 Presenting Movie Junction: Your Ultimate Movie Destination
+# 🎬 Presenting Movie Junction: Your Ultimate Movie Destination
 ## A platform on which you can watch any movie or tv show.
 
-##Dive into the world of entertainment with CinemateX, a cutting-edge movie application developed using React and powered by the TMDB API. Immerse yourself in a seamless movie-watching experience with a sleek user interface and a plethora of features.
+##Dive into the world of entertainment with Movie Junction, a cutting-edge movie application developed using React and powered by the TMDB API. Immerse yourself in a seamless movie-watching experience with a sleek user interface and a plethora of features.
 
 ---
 
+
 ## 🚀 Technology Stack that Drives CinemateX:
 
-React with Vite: Experience lightning-fast performance and a responsive interface, thanks to the dynamic duo of React and Vite.
+- React with Vite: Experience lightning-fast performance and a responsive interface, thanks to the dynamic duo of React and Vite.
 
-State Management: Utilize the power of useState, useEffect, useSelector, and useParams for efficient and organized state management.
+- State Management: Utilize the power of useState, useEffect, useSelector, and useParams for efficient and organized state management.
 
-Redux Toolkit: Ensure a scalable and maintainable codebase with the integration of React Redux Toolkit.
+- Redux Toolkit: Ensure a scalable and maintainable codebase with the integration of React Redux Toolkit.
 
-Infinite Scroll Component: Enjoy an uninterrupted movie discovery journey with the integration of a React infinite scroll component.
+-React  Infinite Scroll Component: Enjoy an uninterrupted movie discovery journey with the integration of a React infinite scroll component.
+[REACT INFINITE SCROLL COMPONET](https://www.npmjs.com/package/react-infinite-scroll-component)
 
-Date Formatting with Dayjs: Convert dates into a visually pleasing format using the versatile Dayjs library.
+- Date Formatting with Dayjs: Convert dates into a visually pleasing format using the versatile Dayjs library.
+  [DayJs](https://www.npmjs.com/package/dayjs)
 
-SCSS Styling: Elevate your visual experience with the elegance of SCSS for a polished and aesthetic design.
+- SCSS Styling: Elevate your visual experience with the elegance of SCSS for a polished and aesthetic design.
 
-Lazy Loading Image Component: Optimize performance by incorporating React lazy loading image components for a faster loading time.
+- Lazy Loading Image Component: Optimize performance by incorporating React lazy loading image components for a faster loading time.
+  [Lazy Loading Package](https://www.npmjs.com/package/react-lazy-load-image-component)
 
-React Select for Enhanced User Interaction: Provide users with a seamless selection experience using React Select for dropdown options.
+- React Select for Enhanced User Interaction: Provide users with a seamless selection experience using React Select for dropdown options.
+[React Select package](https://www.npmjs.com/package/react-select)
 
-Axios for Efficient Data Fetching: Fetch data effortlessly and efficiently with Axios, ensuring a smooth streaming experience.
+- Axios for Efficient Data Fetching: Fetch data effortlessly and efficiently with Axios, ensuring a smooth streaming experience.
+  
 
-Deployment with Vercel: Deployed seamlessly on Vercel, ensuring a reliable and accessible platform for movie enthusiasts.
+- Deployment with Vercel: Deployed seamlessly on Vercel, ensuring a reliable and accessible platform for movie enthusiasts.
 
-React Icons: Enhance visual appeal and functionality with a diverse set of icons from the React Icons library.
+- React Icons: Enhance visual appeal and functionality with a diverse set of icons from the React Icons library.
 
 ---
 
