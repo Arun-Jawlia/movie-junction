@@ -7,7 +7,7 @@ import "./style.scss";
 import { fetchDataFromApi } from "../../utilis/api";
 import ContentWrapper from "../../components/contentWrapper/ContentWrapper";
 import MovieCard from "../../components/movieCard/MovieCard";
-import noResults from "../../assets/no-results.png";
+// import noResults from "../../assets/no-results.png";
 import Spinner from "../../components/spinner/Spinner";
 
 const SearchResult = () => {
